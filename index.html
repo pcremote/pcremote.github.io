@@ -1,217 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
 		<meta charset="utf-8" >
 		<title>Remotifier - Quick Controller</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="HandheldFriendly" content="true" />
+		<meta name="MobileOptimized" content="320" />
+		<meta name="viewport" content="width=device-width, initial-scale=1", user-scalable="no" >
+		<link rel="stylesheet" href="css/style.css">
 		<link rel="icon" href="i/remotifier.png" type="image/x-icon">
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Rubik:100,200,300,400,600,500,700,800,900|Karla:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-		<!-- Bootstrap 4.3.1 CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-		<!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-		<!-- AOS 2.3.4 jQuery plugin CSS (Animations) -->
-		<link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
-		<!-- FontAwesome CSS -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-		<!-- PCRemote 3 CSS (Styles for all blocks) -->
-		<link href="css/style.css" rel="stylesheet" />
-		<!-- jQuery 3.3.1 -->
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-	</head> 
+		<script src="js/script.js" defer></script>
+	</head>
 	<body>
-<!-- Navigation Mobile type 1 -->
-
-<a href="#" class="open_menu bg-light radius_full"><i class="fas fa-bars lh-40"></i></a>
-<div class="navigation_mobile bg-dark type1">
-	<a href="#" class="close_menu color-white"><i class="fas fa-times"></i></a>
-	<div class="px-40 pt-60 pb-60 inner">
-		<div class="logo color-white mb-30">Remotifier</div>
-		<div><a href="#" class="f-heading f-22 link color-white mb-20">Home</a></div>	
-		<div><a href="#" class="f-heading f-22 link color-white mb-20">Tour</a></div>	
-		<div><a href="#" class="f-heading f-22 link color-white mb-20">Mobile Apps</a></div>	
-		<div><a href="#" class="f-heading f-22 link color-white mb-20">Pricing</a></div>	
-		<div><a href="#" class="f-heading f-22 link color-white mb-20">Development</a></div>	
-		<div><a href="#" class="link color-white op-3 mb-15">Help</a></div>
-		<div><a href="#" class="link color-white op-3 mb-15">F.A.Q.</a></div>
-		<div><a href="#" class="link color-white op-3 mb-15">Support</a></div>
-		<div><a href="#" class="link color-white op-3 mb-15">About Us</a></div>
-		<div><a href="#" class="link color-white op-3 mb-15">Blog</a></div>
-		<div><a href="https://sites.google.com/view/pcremote/home" class="link color-white op-3 mb-15">Privacy Policy</a></div>
-						
-		<div class="socials mt-40">
-			<a href="#" target="_blank" class="link color-white f-18 mr-20"><i class="fab fa-twitter"></i></a>
-			<a href="#" target="_blank" class="link color-white f-18 mr-20"><i class="fab fa-facebook"></i></a>
-			<a href="#" target="_blank" class="link color-white f-18 mr-20"><i class="fab fa-google-plus-g"></i></a>
-		</div>
-		
-		<div class="mt-50 f-14 light color-white op-3 copy">&copy; 2022 Rinaldo Nikilson. All rights reserved.</div>
-	</div>
-</div>		<!-- Header 1 -->
-		<header class="pt-195 pb-110 bg-light header_1">
-			<nav class="header_menu_1 pt-30 pb-30 mt-30">
-				<div class="container px-xl-0">
-					<div class="row justify-content-center align-items-center f-18 medium">
-						<div class="col-lg-3 logo">
-							<span>Remotifier</span>
-						</div>
-						<div class="col-lg-6 text-center">
-							<a href="#" class="link color-heading mx-15">Overview</a>
-							<a href="#" class="link color-heading mx-15">Features</a>
-							<a href="#" class="link color-heading mx-15">Video</a>
-							<a href="#" class="link color-heading mx-15">Contact</a>
-							<a href="#" class="link color-heading f-16 mx-15">
-								<i class="fas fa-search"></i>
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-4 col-sm-6 d-flex justify-content-end align-items-center">
-							<a href="https://github.com/nikilson/pcremote-server" class="btn sm action-1">Contribute</a>
-						</div>
-					</div>
-				</div>
-			</nav>
-			<div class="container">
-				<div class="mb-3 logo d-block d-xl-none text-center logo_mobile">Remotifier</div>
-				<h1 class="big text-center">Relax and play your content with zero cost </h1>
-				<div class="mw-600 mx-auto mt-30 f-22 color-heading text-center text-adaptive">Download the server by clicking the below link.
-				</div>
-				<div class="mt-80 text-center buttons">
-					<div>
-						<a href="https://github.com/remotifier/remotifier-server/releases/download/v1.0.3.3/Remotifier-Server-1.0.3.3.zip" class="btn lg action-1">Download Server</a>
-					</div>
-					<div>
-						<a href="https://play.google.com/store/apps/details?id=com.rinaldo.pcremote" class="link mt-15 action-1 f-18 medium">Download App</a>
-					</div>
-				</div>
-			</div>
+		<header>
+			<nav class="navbar">
+        <div class="brand-title">Remotifier</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="instruction.html">How to use</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="https://www.youtube.com/watch?v=_gyeuZDZaC4" target="_blank">Video</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="https://github.com/nikilson/pcremote-server">Contribute</a></li>
+          </ul>
+        </div>
+      </nav>
 		</header>
-
-		<!-- Feature 34 -->
-		<section class="pt-100 pb-120 bg-light feature_34">
-			<div class="container px-xl-0">
-				<div class="row align-items-center text-center text-sm-left">
-					<div class="col-xl-1">
-					</div>
-					<div class="col-lg-5 col-sm-6">
-						<h2 class="mb-20">Everything in One Place</h2>
-						<div class="mb-40 mb-sm-0 f-22 color-heading text-adaptive">Play your favourite youtube videos on your default browser with just a click with effortless connection experience.
-						</div>
-					</div>
-					<div class="col-sm-1">
-					</div>
-					<div class="col-sm-5">
-						<img src="i/feature_34_img_pcremote.png" srcset="i/feature_34_img@2x_pcremote.png 2x" alt="" class="img" />
-					</div>
+		<section>
+			<div class="section1-heading"><h1>Relax and play your favourite content with zero cost</h1></div>
+			<div id="section1-paragraph">Download the server by clicking the below link</div>
+			<div class="server-button"><a href="https://github.com/remotifier/remotifier-server/releases/download/v1.0.3.6/Remotifier-Server-1.0.3.6.zip">Download Server</a></div>
+			<div class="app-download"><a href="https://play.google.com/store/apps/details?id=com.rinaldo.pcremote">Download App</a></div>
+		</section>
+		<section>
+			<div class="section2">
+				<div id="section2-text">
+				<div class="section2-heading">
+					<h1>Everything in One Place</h1>
 				</div>
-				
-				</div>
+				<div class="section2-paragraph">Play your favourite youtube videos on your default browser with just a click with effortless connection experience</div></div>
+				<div class="section2-image"><img src="i/screenshot.png"></img></div>
 			</div>
 		</section>
 
-		
-
-		<!-- Content 24 -->
-		<section class="pt-100 pb-95 bg-light content_24">
-			<div class="container px-xl-0">
-				<div class="row justify-content-center">
-					<div class="col-xl-10 col-lg-11">
-						<div class="relative poster">
-							<div class="mt-20 ml-20 absolute bg-light f-14 lh-30 color-red text-uppercase semibold sp-20 px-10 radius10 tip">Demo Instruction</div>
-							<img src="i/Thumbnail.jpg" srcset="i/Thumbnail.jpg" alt="" class="img-fluid radius10" />
-							<a href="https://www.youtube.com/watch?v=_gyeuZDZaC4" class="play red" data-fancybox="content_24_fancybox">
-								<i class="fas fa-play"></i>
-							</a>
-						</div>
-					</div>
+		<section>
+			<div class="section-4">
+				<div id="section4-text">
+					<div class="section4-heading">
+					<h1>Made for your night shows</h1></div>
+					<div class="section4-paragraph">Never leave your seat on your night show
+						fully integrated VLC media controller lets you
+						do all you want with a click</div>
 				</div>
+				<div class="section4-image"><img src="i/screenshot-2.png"></img></div>
+			</div>
+		</section>
+		
+		<section>
+			<div class="section5">
+				<div id="section5-text">
+				<div class="section5-heading">
+					<h1>And more!!</h1>
+				</div>
+				<div class="section5-paragraph">Forget about keyboard shortcuts. Fully opensourced
+				server and extremely customizable.</div></div>
+				<div class="section5-image"><img src="i/remotifier.png"></img></div>
 			</div>
 		</section>
 
-		
-		<!-- Footer 11 -->
-		<footer class="pt-45 pb-45 bg-dark color-white text-center footer_11">
-			<div class="container px-xl-0">
-				<div class="row align-items-center">
-					<div class="mb-20 mb-lg-0 col-lg-3">
-						<a href="#" class="link logo color-white">Remotifier</a>
-					</div>
-					<div class="col-lg-9 text-lg-right">
-						<a href="https://sites.google.com/view/pcremote/home" class="link color-white mr-10">Privacy Policy</a>
-						<a href="#" class="link color-white mx-10">Terms</a>
-						<div class="d-inline-block socials">
-							<a href="#" class="link color-white mx-10">
-								<i class="fab fa-twitter"></i>
-							</a>
-							<a href="#" class="link color-white mx-10">
-								<i class="fab fa-facebook-f"></i>
-							</a>
-							<a href="#" class="link color-white ml-10">
-								<i class="fab fa-google-plus-g"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div>
-					<div class="mt-45 mb-45 hr h-2 bg-white op-3">
-					</div>
-				</div>
-				<div class="row">
-					<div class="mb-20 mb-lg-0 col-lg-7">
-						<a href="#" class="link color-white mr-10">Overview</a>
-						<a href="#" class="link color-white mx-10">Features</a>
-						<a href="#" class="link color-white mx-10">Video</a>
-						<a href="#" class="link color-white mx-10">About Us</a>
-						<a href="#" class="link color-white mx-10">Blog</a>
-						<a href="https://sites.google.com/view/pcremote/home" class="link color-white ml-10">Privacy Policy</a>
-					</div>
-					<div class="col-lg-5 text-lg-right">
-						<div class="text-adaptive">© 2022 Rinaldo Nikilson. All rights reserved.
-						</div>
-					</div>
-				</div>
+		<section>
+			<div class="section-3">
+				<div class="video-demo-container"><div class="video-demo-text">VIDEO DEMONSTRATION</div></div>
+				<div class="youtube-play-button"><a href="https://www.youtube.com/watch?v=_gyeuZDZaC4" target="_blank"><img src="i/playbutton.png"></img></a></div>
+				<div class="thumbnail-image"><img src="i/thumbnail.jpg"></img></div>
 			</div>
+		</section>
+
+		<div class="footer-section">
+		<footer>
+				<div class="footer-remotifier-text"><a href="#">Remotifier</a></div>
+				<div class="footer-navigation-text">
+					<a href="#">Overview</a>
+					<a href="#">Features</a>
+					<a href="https://www.youtube.com/watch?v=_gyeuZDZaC4" target="_blank">Video</a>
+					<a href="#">Contact</a>
+				</div>
+				<div class="privacy-policy"><a href="privacypolicy.html">Privacy Policy</a></div>
+				<div class="footer-copyright-text">© 2022 Rinaldo Nikilson. All rights reserved.</div>
 		</footer>
-
-		<!-- forms alerts -->
-		<div class="alert alert-success alert-dismissible fixed-top alert-form-success" role="alert">
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			Thanks for your message!
 		</div>
-		<div class="alert alert-warning alert-dismissible fixed-top alert-form-check-fields" role="alert">
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			Please, fill in required fields.
-		</div>
-		<div class="alert alert-danger alert-dismissible fixed-top alert-form-error" role="alert">
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-			<div class="message">An error occurred while sending data :( Please, check if your hosting supports PHP and check how to set form data sending <a href="https://designmodo.com/PCRemote/documentation/#form-handler" target="_blank" class="link color-transparent-white">here</a>.</div>
-		</div>
-
-		<!-- gReCaptcha popup (uncomment if you need a recaptcha integration) -->
-		<!--
-		<div class="bg-dark op-8 grecaptcha-overlay"></div>
-		<div class="bg-light radius10 w-350 h-120 px-20 pt-20 pb-20 grecaptcha-popup">
-			<div class="w-full h-full d-flex justify-content-center align-items-center">
-				<div id="g-recaptcha" data-sitekey="PUT_YOUR_SITE_KEY_HERE"></div>
-			</div>
-		</div>
-		<script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
-		-->
-		<!-- Bootstrap 4.3.1 JS -->
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-		<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
-		<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-		<!-- Google maps JS API -->
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
-		<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
-		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-		<!-- AOS 2.3.4 jQuery plugin JS (Animations) -->
-		<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-		<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
-		<script src="js/jquery.maskedinput.min.js"></script>
-		<!-- PCRemote 3 JS (Custom js for all blocks) -->
-		<script src="js/script.js"></script>
 	</body>
 </html>
